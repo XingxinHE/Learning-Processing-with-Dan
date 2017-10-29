@@ -1,6 +1,7 @@
 //use polar coordinate to describe a sketch
 
-float r=75;
+//the radius can start from zero and incrementing
+float r=20;
 float theta=0;
 
 void setup() {
@@ -23,4 +24,7 @@ void draw() {
 
   //Increment the angle
   theta+=0.01;
+  
+  //Increment the radius, so it can draw over and over again
+  r+=0.05;
 }
